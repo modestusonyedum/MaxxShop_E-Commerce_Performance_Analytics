@@ -5,7 +5,6 @@ The business competes through low prices, wide product choice and year-round dis
 
 
 
-
 ![](Visuals/KPis.png)
 
 
@@ -38,6 +37,7 @@ Also Look up functions like **XLOOKUP, and INDEX-MATCH** were used to get column
 
 
 ## Data Transformation and DAX Development
+
 This data was modelled and transformed in Power BI using a Star Schema, with 5 Dimension Tables **(Product, Customer, Oder_item, Order and Calender)** connected to a central Fact Table.
 Power Query (M Language) was used to create and structure additional tables like **Delivery_Date_Segment**.
 
@@ -48,6 +48,7 @@ Power Query (M Language) was used to create and structure additional tables like
 
 
 ### Key Question & Answers
+
 - Build a monthly revenue and profit trend across both years and point out which is seasonal.
 - Which categories and subcategories generate the most revenue and The most profit?
 - What did Return cost us?
@@ -56,6 +57,7 @@ Power Query (M Language) was used to create and structure additional tables like
 - what are the highest reasons for product returns?
 - Are there products or subcategories that are less profitable to us?
 - What are the top customers that generate us the highest revenue?
+- Include a Row Level Security for all regions
 
 
 
@@ -63,6 +65,7 @@ Power Query (M Language) was used to create and structure additional tables like
 ![](Visuals/Maxxshop_Overview.png)
 
 **Key Insights**
+
 - Revenue and profit spike every November (£99K to £111K revenue; £24K to £27K profit), indicating seasonal demand, with a steady baseline in other months
 - Electronics drives the most revenue (£419K, 33%), yet Fashion is the most profitable (£97.7K) on half the sales.
 - Returns cost £72.4K over 2024-2025, driven mainly by Electronics (£25.8K) and Fashion (£25.5K).
@@ -72,6 +75,7 @@ Power Query (M Language) was used to create and structure additional tables like
 
 
 **Key Insights**
+
 - Discounts must be capped at 35% to protect margins; rates at or above 40% yield net losses.
 - The highest reason for return is Size Issue and that is associated with fashion.
 - 5 Least profitable sub-categories: Maintenance (£2.5K), School Supplies (£2.4K), Household Essentials (£1.6K), Snacks (£1.3K), Beverages (£1.1K).
@@ -80,8 +84,9 @@ Power Query (M Language) was used to create and structure additional tables like
 
 
 ## Row Level Security
+
 ![](Visuals/Row_Level.png)
-Row Level Security for May 2025 in action — Dashboard filtered to East region only using the Regional Manager role. Total revenue restricted to £7K and Last Month Revenue to £9.6K — demonstrating RLS working correctly across all visuals.
+Row Level Security for May 2025 in action. Dashboard filtered to East region only using the Regional Manager role. Total revenue restricted to £7K and Last Month Revenue to £9.6K,demonstrating RLS working correctly across all visuals.
 
 *Recommendation**
 
