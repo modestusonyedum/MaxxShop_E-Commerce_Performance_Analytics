@@ -32,57 +32,51 @@ Excel and Power Bi
 The data was cleaned in Excel using functions and tools such as PROPER(), TRIM(), FIND & REPLACE, REMOVE DUPLICATES, MEDIAN(), Using inbuilt tools to fix the date.
 Also Look up functions like XLOOKUP, and INDEX-MATCH were used to get columns from different sheets.
 
-<table align="left">
-  <tr>
-    <th align="left">Uncleaned</th>
-    <th align="left">Cleaned</th>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="Visuals/Uncleaned.png" alt="Uncleaned" width="400">
-    </td>
-    <td align="center">
-      <img src="Visuals/Cleeaned.png" alt="Cleaned" width="400">
-    </td>
-  </tr>
-</table>
+![](Visuals/Uncleand_and_Cleaned.png)
 
 
 
 
-## Analytical Approach
-The dashboard is structured into two key analytical layers, each designed to answer specific business questions within the company.
+## Data Transformation and DAX Development
+This data was modelled and transformed in Power BI using a Star Schema, with 5 Dimension Tables( Product, Customer, Oder_item, Order and Calender) connected to a central Fact Table.
+Power Query (M Language) was used to create and structure additional tables like **Delivery_Date_Segment**.
+
+ Calendar Table was created using DAX, covering the order date range and linked to the Fact table with DATE to ORDER DATE (start and end dates).
+
+30 DAX measures were developed, incorporating functions such as DIVIDE(), AVERAGE(), CALCULATE(), and SUMX(),SUM() and DISTINCTCOUNT() to support the analysis and generate actionable insights.
 
 
-### 1. Customer Analytics
 
-This section focuses on understanding customer behavior and profitability.
-**Key Metrics**
-- Total Revenue: **14.74M**
-- Total Profit: **1.52M**
-- Total Orders: **5496**
-- Total Customers: **1795**
-- Profit Margin: **10.33%**
-
-
-**Analysis Performed**
-- Which customer segments generated the highest profit?
-- How does profit vary across different customer segments and regions?
-- Which 5 customers are responsible for the largest purchases?
-- Based on the subcategory, how do they each contribute to profitability?
+### Key Question & Answers
+- Build a monthly revenue and profit trend across both years and point out which is seasonal.
+- Which categories and subcategories generate the most revenue and The most profit?
+- What did Return cost us?
+- Is our promises to deliver products on time met?
+- How does discounting rate impact our profit?
+- What is the true cost of returns and where is margin leaking?
+- what are the highest reasons for product returns?
+- Are there products or subcategories that are less profitable to us?
+- What are the top customers that generate us the highest revenue?
 
 
-![](Visuals/Customer_Analysis.png)
+
+
+![](Visuals/Maxxshop_Overview.png)
+
+**Key Insights**
+- Revenue and profit spike every November (£99K to £111K revenue; £24K to £27K profit), indicating seasonal demand, with a steady baseline in other months
+- Electronics drives the most revenue (£419K, 33%), yet Fashion is the most profitable (£97.7K) on half the sales.
+- Returns cost £72.4K over 2024-2025, driven mainly by Electronics (£25.8K) and Fashion (£25.5K).
+- On time delivery time not fairly met: just 56% of orders were delivered on time, 35% late, and 9% not delivered.
+
+![](Visuals/Maxxshop_Return_Outcome.png)
 
 
 **Key Insights**
-- Profit is concentrated among a small group of high-value customers, including Emily Phan (34.01K), Deborah Brumfield (31.12K), and Grant Carroll (27.98K). If these customers cut back or stop buying, the impact on results could be significant.
-
-- Subcategory insight reveals key performers such as binders, paper, and furnishings, while the copier category operates at a loss of -16K, suggesting pricing issues, warranty expense, or high logistics overhead.
-
-- By segment, Corporate contributes the most profit at 527.1K, while Home Office, Consumer, and Small Business together make up a substantial share. This confirms that Deskify serves both B2B and B2C markets. Geographic performance is similarly uneven: the Northwest leads at 569,398, while Yukon and Quebec remain significantly underdeveloped.
-
-- These patterns point to clear growth opportunities through targeted marketing, regional penetration strategies, and customer loyalty initiatives. Refining segmentation, reducing reliance on top contributors, and activating weaker markets would diversify revenue and strengthen long-term, customer-driven profitability.
+- Discounts must be capped at 35% to protect margins; rates at or above 40% yield net losses.
+- ajhsjhsjas
+- The highest reason for return is Size Issue and that is associated with fashion.
+- 5 Least profitable sub-categories: Maintenance (£2.5K), School Supplies (£2.4K), Household Essentials (£1.6K), Snacks (£1.3K), Beverages (£1.1K).
 
 
 ### 2. Product Analytics
@@ -97,7 +91,7 @@ This section focuses on the product performance.
 - How has *Deskify's* profit evolved over time?
 
 
-![](Visuals/Product_Analysis.png)
+
 
 
 **Key Insights**
