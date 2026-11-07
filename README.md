@@ -29,8 +29,8 @@ Excel and Power Bi
 
 ## Data Cleaning in Excel
 
-The data was cleaned in Excel using functions and tools such as PROPER(), TRIM(), FIND & REPLACE, REMOVE DUPLICATES, MEDIAN(), Using inbuilt tools to fix the date.
-Also Look up functions like XLOOKUP, and INDEX-MATCH were used to get columns from different sheets.
+The data was cleaned in Excel using functions and tools such as **PROPER(), TRIM(), FIND & REPLACE, REMOVE DUPLICATES, MEDIAN(),** Using inbuilt tools to fix the date.
+Also Look up functions like **XLOOKUP, and INDEX-MATCH** were used to get columns from different sheets.
 
 ![](Visuals/Uncleand_and_Cleaned.png)
 
@@ -38,12 +38,12 @@ Also Look up functions like XLOOKUP, and INDEX-MATCH were used to get columns fr
 
 
 ## Data Transformation and DAX Development
-This data was modelled and transformed in Power BI using a Star Schema, with 5 Dimension Tables( Product, Customer, Oder_item, Order and Calender) connected to a central Fact Table.
+This data was modelled and transformed in Power BI using a Star Schema, with 5 Dimension Tables **(Product, Customer, Oder_item, Order and Calender)** connected to a central Fact Table.
 Power Query (M Language) was used to create and structure additional tables like **Delivery_Date_Segment**.
 
- Calendar Table was created using DAX, covering the order date range and linked to the Fact table with DATE to ORDER DATE (start and end dates).
+ Calendar Table was created using DAX, covering the order date range and linked to the Fact table with DATE to **ORDER DATE** (start and end dates).
 
-30 DAX measures were developed, incorporating functions such as DIVIDE(), AVERAGE(), CALCULATE(), and SUMX(),SUM() and DISTINCTCOUNT() to support the analysis and generate actionable insights.
+30 DAX measures were developed, incorporating functions such as **DIVIDE(), AVERAGE(), CALCULATE(), and SUMX(),SUM() and DISTINCTCOUNT()** to support the analysis and generate actionable insights.
 
 
 
