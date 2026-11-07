@@ -79,9 +79,11 @@ Power Query (M Language) was used to create and structure additional tables like
 
 
 
+## Row Level Security
+![](Visuals/Row_Level.png)
+Row Level Security for May 2025 in action — Dashboard filtered to East region only using the Regional Manager role. Total revenue restricted to £7K and Last Month Revenue to £9.6K — demonstrating RLS working correctly across all visuals.
 
-
-**Recommendation**
+*Recommendation**
 
 - 
 
