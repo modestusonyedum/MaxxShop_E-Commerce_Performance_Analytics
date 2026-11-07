@@ -32,9 +32,22 @@ Excel and Power Bi
 The data was cleaned in Excel using functions and tools such as PROPER(), TRIM(), FIND & REPLACE, REMOVE DUPLICATES, MEDIAN(), Using inbuilt tools to fix the date.
 Also Look up functions like XLOOKUP, and INDEX-MATCH were used to get columns from different sheets.
 
+<table align="left">
+  <tr>
+    <th align="left">Uncleaned</th>
+    <th align="left">Cleaned</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="Visuals/Uncleaned.png" alt="Uncleaned" width="400">
+    </td>
+    <td align="center">
+      <img src="Visuals/Cleeaned.png" alt="Cleaned" width="400">
+    </td>
+  </tr>
+</table>
 
 
-![](Visuals/Data_Model.png)
 
 
 ## Analytical Approach
