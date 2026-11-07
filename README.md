@@ -53,7 +53,6 @@ Power Query (M Language) was used to create and structure additional tables like
 - What did Return cost us?
 - Is our promises to deliver products on time met?
 - How does discounting rate impact our profit?
-- What is the true cost of returns and where is margin leaking?
 - what are the highest reasons for product returns?
 - Are there products or subcategories that are less profitable to us?
 - What are the top customers that generate us the highest revenue?
@@ -74,43 +73,17 @@ Power Query (M Language) was used to create and structure additional tables like
 
 **Key Insights**
 - Discounts must be capped at 35% to protect margins; rates at or above 40% yield net losses.
-- ajhsjhsjas
 - The highest reason for return is Size Issue and that is associated with fashion.
 - 5 Least profitable sub-categories: Maintenance (£2.5K), School Supplies (£2.4K), Household Essentials (£1.6K), Snacks (£1.3K), Beverages (£1.1K).
-
-
-### 2. Product Analytics
-This section focuses on the product performance.
-
-
-**Analysis Performed**
-- What are the top 10 states based on Deskify's profitability?
-- Which product categories contributed the most to profitability?
-- How does the choice of shipping method impact the number of orders?
-- Which 5 products are the most profitable for Deskify?
-- How has *Deskify's* profit evolved over time?
+- Grace Costa is the highest-paying customer (£6.17K), closely followed by Callum Yilmaz (£6.07K).
 
 
 
-
-
-**Key Insights**
-- Deskify’s product performance shows strong revenue contribution from certain categories, with **Office Supplies** generating the majority of total profit at **985.36K (64.73%)**, followed by Furniture at **331.03K** and Technology at **205.95K**.
-
-- Top individual products including **Eldon ClusterMat and Panasonic** models highlight a dependency on a small set of profitable SKUs, creating product concentration risk.
-
-- Operational data further indicates significant shipping cost pressure due to reliance on **air freight (nearly 90% of orders)**, which likely diminishes margins and limits scale efficiency.
-
-- Seasonal trends reveal noticeable fluctuations in monthly performance, with **October (177K) and January (161K)** as the highest-earning months, and **August (81K)** the weakest. These fluctuations likely correlate with procurement cycles, budgeting periods, and business purchasing behaviors rather than consumer-driven trends. 
 
 
 **Recommendation**
 
-- Regular Air handles 74.11% of orders, creating over-reliance on one shipping method. Renegotiate carrier rates and shift non-urgent deliveries to Delivery Truck to reduce costs and minimise operational risks.
-- Allocate more marketing spend and inventory to Office Supplies, which contributes 65% of category profit (985K), while maintaining Furniture’s profitability (22%) and exploring ways to improve Technology (14%).
-- Discontinue the loss-making Copiers sub-category as it makes loss every year.
-- Shift marketing and inventory budget away from the bottom performers like Machines, Fasteners and Copiers toward the two clear winners Binders, Paper and Furnishings.
-- Don’t over rely on your top 3 named customers. Diversify the customer base like setting a concentration target and growing the mid-tier
+- 
 
 
 
