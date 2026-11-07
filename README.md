@@ -5,34 +5,33 @@ The business competes through low prices, wide product choice and year-round dis
 
 
 
-![](Visuals/KPIs.png)
+
+![](Visuals/KPis.png)
 
 
 ## Problem Statement
 
-The organization currently depends on Excel for compiling, analyzing, and reporting its monthly sales and transaction data. It has become increasingly cumbersome and time-consuming due to the complexity of the data and the high volume of transactions processed each month. The reporting process involves manual data entry and consolidation from multiple sources, which introduces errors and inconsistencies.
+MaxxShop’s problem comes from three things happening at once. 
+- Discounts are set by the manager of each product group, and those managers are judged on sales, not on the profit the discounts give away. 
+- Nobody has ever added up what discounts and returns really cost, even though some items are cut in price a lot and sent back often. 
+- Nobody checks if orders arrive by the promised date, so late deliveries may be causing returns and losing customers in some regions. 
+Together, these make it hard to grow sales and still make money.
 
 ## Aim
 
-This project aims to build a data model in Power BI using Deskify Office Supply Co.’s sales and transaction data. The solution will centralize data sources, streamline data cleaning, and reduce manual processes to improve reporting accuracy and efficiency.
-Finally, interactive dashboards will be developed to support faster, data-driven decision-making.
+The Aim is to study the company’s order, product and customer data to find out where the money is being lost, spot the weak areas across product groups, regions and types of customers, and say what should be done about them so MaxxShop stops losing profit.
 
-## Datasource
+## Tooling
 
-The dataset used in this project was a simulated company dataset structured around a retail sector scenario. It reflects real-world data patterns and problem.
-
-The data was cleaned and modeled into a star schema, ensuring it's optimized for performance and scalability in Power BI.
-
-
-> [!WARNING]
-> Note: This dataset is fictional and intended for portfolio purposes only. No real customer data is used.
+Excel and Power Bi
 
 
 
-## Data Model
-The data model uses a star schema with one fact table **(TransactionFact)** linked to five dimension tables for **customer, product, order, location, and calendar** data. One-to-many relationships with single-direction filtering ensure clear and efficient analysis. A dedicated Calculated Measures table centralizes DAX calculations for easier maintenance.
+## Data Cleaning in Excel
 
-Overall, the model is clean, scalable, and optimized for Power BI reporting, with future improvements including hierarchies, surrogate keys, and expanded cost structures.
+The data was cleaned in Excel using functions and tools such as PROPER(), TRIM(), FIND & REPLACE, REMOVE DUPLICATES, MEDIAN(), Using inbuilt tools to fix the date.
+Also Look up functions like XLOOKUP, and INDEX-MATCH were used to get columns from different sheets.
+
 
 
 ![](Visuals/Data_Model.png)
