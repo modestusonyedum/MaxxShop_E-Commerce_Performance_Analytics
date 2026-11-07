@@ -49,15 +49,15 @@ Power Query (M Language) was used to create and structure additional tables like
 
 ### Key Question & Answers
 
-- Build a monthly revenue and profit trend across both years and point out which is seasonal.
-- Which categories and subcategories generate the most revenue and The most profit?
-- What did Return cost us?
-- Is our promises to deliver products on time met?
-- How does discounting rate impact our profit?
-- what are the highest reasons for product returns?
-- Are there products or subcategories that are less profitable to us?
-- What are the top customers that generate us the highest revenue?
-- Include a Row Level Security for all regions
+1. Build a monthly revenue and profit trend across both years and point out which is seasonal.
+2. Which categories and subcategories generate the most revenue and The most profit?
+3. What did Return cost us?
+4. Is our promises to deliver products on time met?
+5. How does discounting rate impact our profit?
+6. what are the highest reasons for product returns?
+7. Are there products or subcategories that are less profitable to us?
+8. What are the top customers that generate us the highest revenue?
+9. Include a Row Level Security for all regions
 
 
 
@@ -88,10 +88,13 @@ Power Query (M Language) was used to create and structure additional tables like
 ![](Visuals/Row_Level.png)
 Row Level Security for May 2025 in action. Dashboard filtered to East region only using the Regional Manager role. Total revenue restricted to £7K and Last Month Revenue to £9.6K,demonstrating RLS working correctly across all visuals.
 
-*Recommendation**
-
-- 
-
-
-
-
+## Recommendations
+**Action Plan**
+1. Boost advertising and cross-promotion before the November-December peak to acquire new customers.
+2. •	Renegotiate supplier terms or pricing on Grocery, which has the lowest margin. <br> •	Invest more in Fashion and Electronics, which delivers the highest profit and margin.
+3. Add secure delivery for Electronics and size guides for Fashion to reduce returns
+4. Review courier performance and replace underperforming providers to reduce late and failed deliveries
+5. Cap discounts at 35%, since 40%+ discounts cause losses.
+6. Provide or improve online size guides to reduce size-related returns, the top return reason.
+7. Review the 5 least profitable sub-categories and discontinue consistently weak lines, replacing them with higher-margin alternatives.
+8. Launch a tiered loyalty programme that encourages mid-tier customers to increase spending toward top-customer levels.
