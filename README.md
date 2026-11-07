@@ -59,10 +59,12 @@ Power Query (M Language) was used to create and structure additional tables like
 8. What are the top customers that generate us the highest revenue?
 9. Include a Row Level Security for all regions
 
-
+<br>
 
 
 ![](Visuals/Maxxshop_Overview.png)
+
+<br>
 
 **Key Insights**
 
@@ -72,7 +74,7 @@ Power Query (M Language) was used to create and structure additional tables like
 - On time delivery time not fairly met: just 56% of orders were delivered on time, 35% late, and 9% not delivered.
 
 ![](Visuals/Maxxshop_Return_Outcome.png)
-
+<br>
 
 **Key Insights**
 
