@@ -47,7 +47,7 @@ Power Query (M Language) was used to create and structure additional tables like
 
 
 
-### Key Question & Answers
+### Key Questions
 
 1. Build a monthly revenue and profit trend across both years and point out which is seasonal.
 2. Which categories and subcategories generate the most revenue and The most profit?
