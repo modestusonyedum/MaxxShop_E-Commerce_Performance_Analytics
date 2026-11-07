@@ -1,7 +1,7 @@
 # Overview
 
 MaxxShop is an online retailer selling over 300 products across 10 categories through its website and app. It serves five regions and three customer segments: New, Returning and Premium members, offering multiple payment and delivery options.
-The business competes through low prices, wide product choice and year-round discounts, with increased promotions during November and December. Between January 2024 and December 2025, Shopora processed approximately 15,000 orders from 4,200 customers and also show the row level security between regions.
+The business competes through low prices, wide product choice and year-round discounts, with increased promotions during November and December. Between January 2024 and December 2025, MaxxShop processed approximately 15,000 orders from 4,200 customers and also show the row level security between regions.
 
 
 
@@ -93,7 +93,7 @@ Row Level Security for May 2025 in action. Dashboard filtered to East region onl
 ## Recommendations
 **Action Plan**
 1. Boost advertising and cross-promotion before the November-December peak to acquire new customers.
-2. •	Renegotiate supplier terms or pricing on Grocery, which has the lowest margin. <br> •	Invest more in Fashion and Electronics, which delivers the highest profit and margin.
+2. •	Renegotiate supplier terms or pricing on Grocery, which has the lowest margin. <br> •	Invest more in Fashion, which delivers the highest profit (£97.7K) and margin (44%)..
 3. Add secure delivery for Electronics and size guides for Fashion to reduce returns
 4. Review courier performance and replace underperforming providers to reduce late and failed deliveries
 5. Cap discounts at 35%, since 40%+ discounts cause losses.
