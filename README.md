@@ -20,9 +20,14 @@ Together, these make it hard to grow sales and still make money.
 
 The Aim is to study the company’s order, product and customer data to find out where the money is being lost, spot the weak areas across product groups, regions and types of customers, and say what should be done about them so MaxxShop stops losing profit.
 
-## Tooling
+## Tools and Technology
 
-Excel and Power Bi
+- **Excel:** For Data preparation and Cleaning
+- **Power BI:** Desktop	Data modeling, dashboard creation
+- **Power Query:**	Data transformation and cleaning
+- **DAX:**	Business logic and KPIs
+- **Star Schema:** Modeling	Scalable, optimized data architecture
+- **Power BI Service:**	For live publishing, sharing, and cloud-based report consumption
 
 
 
